@@ -24,17 +24,18 @@ Code::Code(int n, int m) {
 }
 
 //generate random code -- it's SECRET
-vector<long> Code::generateCode(){
+vector<long> Code::generateCode(10){
     vector<long> code;
     
+    randomNumber num;
+    
     for(int i = 0; i < this->n; i++) {
-        //randomNumber num = randomNumber(this->m);
-        int num = rand() % this->m;
-        code.push_back(num);
+                //int num = rand() % this->m;
+        long number = num.random(10);
+        code.push_back(number);
     }
     
-    //cout
-    
+    //tell the secret code - SPILL THE BEANS
     for (auto i = code.begin(); i != code.end(); ++i)
         std::cout << *i << ' ';
     

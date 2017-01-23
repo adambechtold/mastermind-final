@@ -6,8 +6,7 @@
 //  Copyright © 2017 Adam Bechtold. All rights reserved.
 //
 
-//QUESTIONS
-// 1. Use of randomNumber
+
 #include <stdlib.h>
 //
 
@@ -24,10 +23,10 @@ Code::Code(int n, int m) {
 }
 
 //generate random code -- it's SECRET
-vector<long> Code::generateCode(10){
+vector<long> Code::generateCode() {
     vector<long> code;
     
-    randomNumber num;
+    randomNumber num = randomNumber(10);
     
     for(int i = 0; i < this->n; i++) {
                 //int num = rand() % this->m;
@@ -36,10 +35,11 @@ vector<long> Code::generateCode(10){
     }
     
     //tell the secret code - SPILL THE BEANS
+    cout << "secret code: [";
     for (auto i = code.begin(); i != code.end(); ++i)
-        std::cout << *i << ' ';
+        std::cout << *i << ", ";
     
-    std::cout << endl;
+    cout << "]" << endl;
     
     return code;
 }

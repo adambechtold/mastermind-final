@@ -6,8 +6,6 @@
 //  Copyright © 2017 Adam Bechtold. All rights reserved.
 //
 
-//QUESTIONS
-// 1) "secretCode" field in Code class
 
 #ifndef code_h
 #define code_h

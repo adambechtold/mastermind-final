@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B94EBC101E368FF100688139 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B94EBC0F1E368FF100688139 /* main.cpp */; };
+		B94EBC181E3690A900688139 /* code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B94EBC171E3690A800688139 /* code.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		B94EBC0C1E368FF100688139 /* MastermindFinal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MastermindFinal; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94EBC0F1E368FF100688139 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B94EBC161E36908300688139 /* code.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = code.h; sourceTree = "<group>"; };
+		B94EBC171E3690A800688139 /* code.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = code.cpp; sourceTree = "<group>"; };
+		B94EBC191E3690C300688139 /* d_random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = d_random.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				B94EBC0F1E368FF100688139 /* main.cpp */,
+				B94EBC161E36908300688139 /* code.h */,
+				B94EBC171E3690A800688139 /* code.cpp */,
+				B94EBC191E3690C300688139 /* d_random.h */,
 			);
 			path = MastermindFinal;
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94EBC181E3690A900688139 /* code.cpp in Sources */,
 				B94EBC101E368FF100688139 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

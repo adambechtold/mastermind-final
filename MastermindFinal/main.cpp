@@ -1,10 +1,4 @@
-//
-//  main.cpp
-//  DraftMasterMind
-//
-//  Created by Adam Bechtold on 1/22/17.
-//  Copyright © 2017 Adam Bechtold. All rights reserved.
-//
+//Testing merge function on xcode for Me
 
 //QUESTIONS
 // 3) naming conventions for classes
